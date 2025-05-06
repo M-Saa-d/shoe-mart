@@ -47,7 +47,13 @@ const Page = () => {
       <div className="container" style={{ width: "80%" }}>
         <div
           className="card mt-5 p-4 d-flex flex-column flex-lg-row gap-4"
-          style={{ width: "100%" }}
+          style={{
+            width: "100%",
+            borderRadius: "15px",
+            boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)",
+            background: "linear-gradient(to top right, #ffe5b4, #ffd3c2)", // Matching warm pastel gradient
+            transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease",
+          }}
         >
           <img
             src={product.image}

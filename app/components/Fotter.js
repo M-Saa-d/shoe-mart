@@ -3,11 +3,14 @@ import React from "react";
 const Fotter = () => {
   return (
     <div>
-      <div className="bg-light py-4 mt-5">
-        <div className="container">
-          <div className="row">
+      <div
+        className=" py-4 mt-5 text-white"
+        style={{ background: "rgb(6, 22, 33)" }}
+      >
+        <div className="container ">
+          <div className="row ">
             {/* About Us */}
-            <div className="col-12 col-md-3 mb-3">
+            <div className="col-12 col-md-3 mb-3 ">
               <h5>About Us</h5>
               <ul className="list-unstyled">
                 <li style={{ fontSize: "13px", fontWeight: "400" }}>
